@@ -1,4 +1,4 @@
 ﻿  Tic Tac Toe.cpp
-C:\Users\mrsra\source\repos\lambda-san7\Lambda-s-Games-\Tic Tac Toe\Tic Tac Toe.cpp(120): warning C4717: 'game': recursive on all control paths, function will cause runtime stack overflow
-C:\Users\mrsra\source\repos\lambda-san7\Lambda-s-Games-\Tic Tac Toe\Tic Tac Toe.cpp(135): warning C4717: 'main_menu': recursive on all control paths, function will cause runtime stack overflow
+C:\Users\mrsra\source\repos\lambda-san7\Lambda-s-Games-\Tic Tac Toe\Tic Tac Toe.cpp(124): warning C4717: 'game': recursive on all control paths, function will cause runtime stack overflow
+C:\Users\mrsra\source\repos\lambda-san7\Lambda-s-Games-\Tic Tac Toe\Tic Tac Toe.cpp(139): warning C4717: 'main_menu': recursive on all control paths, function will cause runtime stack overflow
   Tic Tac Toe.vcxproj -> C:\Users\mrsra\source\repos\lambda-san7\Lambda-s-Games-\Tic Tac Toe\x64\Debug\Tic Tac Toe.exe

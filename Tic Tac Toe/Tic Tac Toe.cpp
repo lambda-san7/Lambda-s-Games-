@@ -37,7 +37,9 @@ public:
     };
     void render(std::string mode) {
         if (mode == "none") {
+            std::cout << "            \n";
             for (int row = 0; row < 3; row++) {
+                std::cout << " ";
                 for (int col = 0; col < 3; col++) {
                     std::cout << matrix[row][col];
                     if (col != 2) {
@@ -46,11 +48,12 @@ public:
                 };
                 std::cout << "\n";
                 if (row != 2) {
-                    std::cout << "---+---+--- \n";
+                    std::cout << " ---+---+--- \n";
                 };
             };
         };
         if (mode == "row") {
+            std::cout << "            \n";
             for (int row = 0; row < 3; row++) {
                 std::cout << row + 1;
                 for (int col = 0; col < 3; col++) {
@@ -68,6 +71,7 @@ public:
         if (mode == "col") {
             std::cout << " 1   2   3  \n";
             for (int row = 0; row < 3; row++) {
+                std::cout << " ";
                 for (int col = 0; col < 3; col++) {
                     std::cout << matrix[row][col];
                     if (col != 2) {
@@ -76,7 +80,7 @@ public:
                 };
                 std::cout << "\n";
                 if (row != 2) {
-                    std::cout << "---+---+--- \n";
+                    std::cout << " ---+---+--- \n";
                 };
             };
         }
